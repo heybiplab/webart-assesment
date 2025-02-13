@@ -1,0 +1,82 @@
+.primBtn {
+    min-width: 166px;
+    height: 50px;
+    top: 565px;
+    left: 570px;
+    border: none;
+    border-radius: 5px;
+    background: var(--prim-yellow);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+}
+
+.primBtn.dark {
+    background: var(--prim-dark-blue);
+    color: #fff;
+}
+
+.playBtn {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    background: transparent;
+}
+
+.clearLink {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #fff;
+}
+
+.cartBtn {
+    background-color: transparent;
+    border: none;
+    position: relative;
+
+
+}
+
+.cartBtn::after {
+    content: attr(data-cart);
+    position: absolute;
+    top: -3px;
+    left: 11px;
+
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11.48px;
+    letter-spacing: -0.5px;
+    border-radius: 50%;
+    padding: 0 2px;
+    background-color: var(--prim-yellow);
+}
+
+.darkBtn {
+    background-color: var(--heading-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 45px;
+    letter-spacing: -0.5px;
+    min-width: 180px;
+    color: #fff;
+    border: none
+}
+
+.antiDarkBtn {
+    background-color: transparent;
+    border: 1px solid var(--heading-text);
+    color: var(--heading-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 45px;
+    letter-spacing: -0.5px;
+    min-width: 180px;
+}

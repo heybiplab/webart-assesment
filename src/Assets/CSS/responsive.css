@@ -1,0 +1,76 @@
+@media only screen and (max-width : 991px) {
+    .homeBanner {
+        height: 350px;
+    }
+
+    .homeBanner .content h1,
+    .homeBanner .content h1 span {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .partneredUniversities .content p {
+        font-size: 16px;
+    }
+
+    .partneredUniversities .partner_slider .item {
+        max-width: 150px;
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .heading h2 {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .topCategories .infoBox .imgHolder {
+        display: none;
+    }
+
+    .testimonials .someSillyPoints h3 {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .testimonials .someSillyPoints p {
+        line-height: normal;
+    }
+
+    .testimonials .content h4,
+    .testimonials .content h5 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .whatWeOffer .bootLegCTA p {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .whatWeOffer .imgGroup {
+        display: none;
+    }
+
+    .onlineCourses,
+    .topCategories {
+        padding: 0;
+    }
+
+    .heading {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .anEarlyCTA h5 {
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .anEarlyCTA .wrapper {
+        padding: 65px 15px;
+    }
+}

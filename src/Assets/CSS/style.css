@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@import url('./Pages/home.css');
+@import url('./Components/buttons.css');
+@import url('./Components/fonts.css');
+@import url('./Components/anEarlyCTA.css');
+@import url('./Components/navbar.css');
+@import url('./Components/footer.css');
+@import url('./responsive.css');
+
+:root {
+    --prim-yellow: #FFB606;
+    --prim-dark-blue: #0F252B;
+    --heading-text: #0F252A;
+    --para-text: #00000099;
+    --bg-fade: #EFF6F9;
+
+    --prim-font: 'Space Grotesk', sans-serif;
+}
+
+body {
+    font-family: var(--prim-font);
+    color: #000000;
+}
